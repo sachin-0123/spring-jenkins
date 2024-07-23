@@ -17,10 +17,9 @@ class SpringJenkinsApplicationTests {
 	public static Logger logger= LoggerFactory.getLogger(SpringJenkinsApplicationTests.class);
 
 	@Test
-	public  void contextLoads() {
+	public void contextLoads() {
 		logger.info("Test cases executing...");
 		logger.info("Second test cases are executing");
-		logger.info("created pipeline");
 		assertEquals(true,true);
 	}
 
