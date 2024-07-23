@@ -20,7 +20,7 @@ class SpringJenkinsApplicationTests {
 	public  void contextLoads() {
 		logger.info("Test cases executing...");
 		logger.info("Second test cases are executing");
-		logger.info("Hii");
+		logger.info("created pipeline");
 		assertEquals(true,true);
 	}
 
